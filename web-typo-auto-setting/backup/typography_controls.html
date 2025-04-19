@@ -1,0 +1,33 @@
+
+<!-- 타이포 조절 입력 영역 -->
+<div class="control-panel">
+  <h2>H1 설정</h2>
+  <label>Font Size: <input type="number" id="h1-font-size" value="36"></label>
+  <label>Color: <input type="color" id="h1-color" value="#222222"></label>
+
+  <h2>H2 설정</h2>
+  <label>Font Size: <input type="number" id="h2-font-size" value="28"></label>
+  <label>Color: <input type="color" id="h2-color" value="#1e88e5"></label>
+  <label>Border Left: <input type="checkbox" id="h2-border" checked></label>
+
+  <h2>Space-Vertical 설정 (소제목)</h2>
+  <label>Font Size: <input type="number" id="space-font-size" value="20"></label>
+  <label>Color: <input type="color" id="space-color" value="#333333"></label>
+  <label>Text Align:
+    <select id="space-align">
+      <option value="left">좌측</option>
+      <option value="center">중앙</option>
+      <option value="right">우측</option>
+    </select>
+  </label>
+
+  <h2>본문 설정 (p)</h2>
+  <label>Font Size: <input type="number" id="p-font-size" value="18"></label>
+  <label>Line Height: <input type="number" step="0.1" id="p-line-height" value="1.6"></label>
+  <label>Line Length (ch): <input type="number" id="p-max-width" value="65"></label>
+  <label>Color: <input type="color" id="p-color" value="#333333"></label>
+  <label>Justify: <input type="checkbox" id="p-justify" checked></label>
+
+  <br><br>
+  <button id="copy-css">CSS 복사</button>
+</div>

@@ -1,0 +1,128 @@
+
+/* ========== 전체 기준 세팅 ========== */
+:root {
+  --base-font-size: 18px;
+  --base-line-height: 1.6;
+  --max-line-length: 65ch;
+  --info-color: #2e2e2e;
+  --bg-color: #f9f9f9;
+  --h1-color: #222;
+  --h2-color: #1e88e5;
+  --p-color: #333;
+  --strong-color: #000;
+  --em-color: #c0392b;
+}
+
+body {
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+  color: var(--info-color);
+  background-color: var(--bg-color);
+  font-family: 'Noto Sans KR', sans-serif;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* ========== 웹 정보 컨테이너 ========== */
+.typography-container {
+  max-width: 70ch;
+  margin: 4rem auto;
+  margin-right: 1rem;
+  padding: 2rem 2rem;
+  border-radius: 8px;
+}
+
+.typography-container h1 {
+  font-size: 2rem;
+}
+
+.typography-container h2 {
+  font-size: 1.5rem;
+}
+
+.typography-container h3 {
+  font-size: 1.2rem;
+}
+
+.small {
+  font-size: 0.8rem;
+  color: #333;
+  border-left: 1px solid var(--p-color);
+  padding-left: 0.5rem;
+}
+
+/* ========== 텍스트 계층 구조 ========== */
+h1, h2, h3 {
+  line-height: 1.3;
+  font-weight: 700;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+/* ========== 인라인 강조 ========== */
+em {
+  font-style: italic;
+  color: var(--em-color);
+}
+
+strong {
+  font-weight: bold;
+  color: var(--strong-color);
+}
+
+/* ========== 본문 문단 컨테이너 ========== */
+.space-vertical {
+  margin-bottom: 8rem;
+}
+
+.paragraph-container {
+  max-width: 70ch;
+  margin: 4rem auto;
+  background-color: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.paragraph-container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--h1-color);
+}
+
+.paragraph-container h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-left: 4px solid var(--h2-color);
+  padding-left: 0.5rem;
+  color: var(--h2-color);
+}
+
+.paragraph-container p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--p-color);
+  text-align: justify;
+}
